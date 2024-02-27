@@ -15,10 +15,6 @@
 .nav-logo {
   width: 113px;
   height: 52px;
-
-
-
-  color:auto
 }
 .logo {
   background-image: url("amazon_logo.png");
@@ -277,12 +273,12 @@
   padding-left: 15px;
 }
 .cloth {
-  height: 300px;
-  width: 310px;
+  height: auto;
+  width: auto;
   margin: 10px 18px 0px 18px;
 }
 .hero4 p {
-  transform: translate(20px, 20px);
+  /* transform: translate(20px, 20px); */
   font-size: 0.8rem;
   color: #007185;
 }
