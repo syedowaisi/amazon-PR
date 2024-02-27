@@ -112,7 +112,7 @@
 }
 .p2 {
   font-size: 14px;
-  display: inline;
+  display:inline-flex;
   font-weight: 700;
 }
 /* box-5 */
