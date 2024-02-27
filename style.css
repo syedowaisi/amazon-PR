@@ -133,16 +133,15 @@
   display: flex;
   width: 38px;
   height: 25px;
-
   padding-bottom: 6px;
 }
 .nav-cart p {
   width: 28px;
   /* height: 39px; */
-  padding-top: 18px;
+  padding-top: 28px;
   font-weight: 700;
   line-height: 15px;
-  padding-left: 4px;
+  padding-left: 1px;
 }
 .nav-cart:hover {
   transform: translate(1px, 1px);
@@ -180,7 +179,7 @@
   font-weight: 700;
 }
 .deal {
-  display: inline-flex;
+  display: flex;
   width: 80%;
   font-size: 0.9rem;
   font-weight: 500;
@@ -215,7 +214,7 @@
   text-decoration-line: none;
 }
 .hero3 {
-  height: 1340px;
+  height: 1330px;
   transform: translate(0px, 270px);
   display: flex;
   flex-wrap: wrap;
@@ -223,8 +222,8 @@
   background-color: rgba(255, 182, 182, 0.619);
 }
 .box {
-  width: 23.5%;
-  height: 385px;
+  width: 345px;
+  height: 420px;
   background-color: #000;
   padding: 20px 0px 15px 0px;
 }
@@ -237,7 +236,7 @@
   width: 310px;
   margin: 10px 18px 0px 18px;
 }
-.book p {
+.para {
   transform: translate(20px, 20px);
   color: #007185;
   font-size: 0.8rem;
@@ -251,28 +250,14 @@
   width: 150px;
   margin: 10px 18px 0px 18px;
 }
-.headphone p {
+.gaming p {
   transform: translate(20px, 0px);
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
-.keyboard P {
-  transform: translate(20px, 0px);
-  font-size: 0.8rem;
+#p2{
+  padding-top:20px ;
 }
-/* .keyboard{
-    transform: translate(160px,-150px);
-} */
-/* .mouse p{
-    transform: translate(20px,0px);
-    font-size: 0.8rem;
-}
-.mouse{
-    transform: translate(0px,-130px);
-}
-.chair{
-    transform: translate(160px,-270px);
-} */
 .hero4 h2 {
   font-size: 1.2rem;
   padding-left: 15px;
@@ -283,10 +268,9 @@
   margin: 10px 18px 0px 18px;
 }
 .hero4 p {
-  /* transform: translate(20px, 20px); */
-  /* font-size: 0.8rem; */
-  color: #007185;
-  margin-inline-start: auto;
+  transform: translate(20px, 20px);
+  font-size: 0.9rem;
+  color:#007185
 }
 .hero4 p:hover {
   text-decoration: underline;
@@ -303,12 +287,9 @@
   transform: translate(20px, -3px);
   font-size: 1rem;
 }
-.para {
-  display: flex;
-  flex-direction: row;
-}
-/* section-2 */
 
+
+/* section-2 */
 .row {
   display: flex;
 }
