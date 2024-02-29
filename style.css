@@ -114,6 +114,7 @@
   font-size: 14px;
   display:inline-flex;
   font-weight: 700;
+  margin-bottom: 0%;
 }
 /* box-5 */
 .nav-orders {
@@ -191,6 +192,10 @@
   margin: 5px;
 }
 /* hero section */
+/* .herooo{
+  height: 1680px;
+  width: 100%;
+} */
 .hero {
   background-image: url("am1\ img.jpg");
   background-size: cover;
@@ -214,12 +219,12 @@
   text-decoration-line: none;
 }
 .hero3 {
-  height: 1330px;
+  height: 1480px;
   transform: translate(0px, 270px);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: rgba(255, 182, 182, 0.619);
+  background-color: rgba(119, 146, 153, 0.194);
 }
 .box {
   width: 345px;
@@ -230,6 +235,9 @@
 .book h2 {
   font-size: 1.4rem;
   transform: translate(20px, 0px);
+}
+.hero3 h2{
+  font-weight: bold;
 }
 .hero3 img {
   height: 300px;
@@ -259,14 +267,13 @@
   padding-top:20px ;
 }
 .hero4 h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding-left: 15px;
 }
-.cloth {
-  height: auto;
+/* .cloth {
+  height: 250px;
   width: auto;
-  margin: 10px 18px 0px 18px;
-}
+  margin: 10px 18px 0px 18px; */
 .hero4 p {
   transform: translate(20px, 20px);
   font-size: 0.9rem;
@@ -292,4 +299,50 @@
 /* section-2 */
 .row {
   display: flex;
+}
+#p3{
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+.book-seller{
+  width: 100%;
+  height: 280px;
+  background-color: #0f1111;
+  margin:0px 17px;
+  padding: 10px 20px;
+}
+.book-seller h2{
+  font-size: 1.4rem;
+  font-weight:bold;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+.image{
+  display:flex ;
+}
+.image img{
+  width:140px;
+  height:200px;
+  margin: 1px 10px 10px 8px;
+}
+.decor{
+  display: flex;
+}
+.decor p{
+  padding-left: 15px;
+  padding-top:15px ;
+  color: #007185;
+}
+.decor-image{
+  display: flex;
+}
+.decor-image img{
+  margin: 2px 8px 10px 3px;
+}
+.frame{
+  width: 100%;
+  height: 166px;
+  background-color: #0f1111;
+  display: block;
+  /* margin-top: 20px; */
 }
