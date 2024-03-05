@@ -3,10 +3,11 @@
   font-family: "Amazon Ember", Arial;
   border: border-box;
   min-width: 0;
+  /* white-space: normal; */
 }
 
 .content {
-  height: 1980px;
+  height: 2750px;
   width: 100%;
 }
 .navbar {
@@ -34,6 +35,7 @@
 }
 .border:hover {
   border: 1.5px solid white;
+  cursor: pointer;
 }
 /* box-2 */
 .location {
@@ -161,7 +163,7 @@
   justify-content: space-evenly;
   background-color: #232f3e;
   align-items: center;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 .menu {
   width: 58px;
@@ -201,7 +203,7 @@
 .hero {
   background-image: url("am1\ img.jpg");
   background-size: cover;
-  height: 600px;
+  height: 330px;
 }
 .hero2 {
   height: 40px;
@@ -220,9 +222,14 @@
   color: #007185;
   text-decoration-line: none;
 }
+.hero2 a:hover{
+  color: rgba(255, 0, 0, 0.758);
+  text-decoration: underline;
+}
 .hero3 {
-  height: 1530px;
-  transform: translate(0px, -270px);
+  height: 1485px;
+  /* transform: translate(0px, -270px); */
+  padding:20px 0px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -250,6 +257,14 @@
   transform: translate(20px, 20px);
   color: #007185;
   font-size: 0.8rem;
+}
+.parara:hover{
+  color: rgba(255, 55, 0, 0.884);
+  cursor: pointer;
+}
+.pg:hover{
+  text-decoration: underline;
+  color: rgba(255, 55, 0, 0.884);
 }
 .gaming h2 {
   font-size: 1.4rem;
@@ -303,7 +318,7 @@
 }
 .book-seller {
   width: 100%;
-  height: 280px;
+  height: 260px;
   background-color: #0f1111;
   margin: 0px 17px;
   padding: 10px 20px;
@@ -340,21 +355,20 @@
   width: 100%;
   height: 166px;
   background-color: #0f1111;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .frame1 {
   background-color: #0f1111;
-  width: 97.1%;
+  width: 97%;
   height: 120px;
   display: block;
   border: 0.5px solid white;
   border-radius: 5px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
   padding: 10px 20px 0px;
-}
-.frame2 {
-  padding-left: 600px;
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #p4 {
   font-size: 0.85rem;
@@ -392,7 +406,151 @@
 .back{
   width: 100%;
   height: 50px;
-  justify-content:baseline;
+  justify-content:center;
+  display: flex;
   align-items: center;
-  background-color:#232f3e;
+  background-color:#37475a;
+  font-size: 0.85rem;
+}
+.foot1{
+  width: 100%;
+  height: 430px;
+  background-color: #232f3e;
+  padding: 40px 0px 20px 0px;
+}
+.foot-p{
+  width: 1000px;
+  height: 318px;
+  margin-left: 220px;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.foot-1{
+  width: 116px;
+  height: 318px;
+  color: #DDDDDD;
+  padding: 0px 10px 0px 10px;
+  font-size: 14px;
+}
+#s1{
+  font-size: 15px;
+  font-weight:700;
+  padding-right: 5px;
+}
+ul{
+  padding-left: 0px;
+}
+ul a{
+  display: block;
+  margin-bottom: 7px;
+}
+ul a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.foot-p p{
+  font-size: 1rem;
+  color: #fff;
+  margin: 6px 0px 14px;
+}
+.foot2{
+  height: 68px;
+  margin: 10px 109px;
+  display: flex;
+}
+.sp1{
+  width: 90px;
+  height: 64px;
+  margin-left: 290px;
+  padding: 4px 5px 0px;
+  display: flex;
+  align-items: center;
+}
+.span-img{
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  padding-top: 5px;
+}
+.sp2{
+  width: 440px;
+  height: 35px;
+  display: flex;
+  margin: 18px 0px 0px 70px;
+  padding: 0px 7.2px;
+}
+.d1{
+  width: 74px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 4px 0px 0px;
+  padding: 4px 18px 4px 6px;
+}
+.sp2 p{
+  color: #DDDDDD;
+  font-size: 0.81rem;
+  padding: 0px 7.8px;
+  justify-content: space-between;
+}
+.icon{
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+.d2{
+  width: 126px;
+  height: 34px;
+  display: flex;
+  margin: 0px 4px 0px 0px;
+  padding: 4px 18px 4px 6px;
+}
+.dollar{
+  width: 7.63px;
+  height: 18px;
+  font-size: 0.81rem;
+}
+.d3{
+  width: 140px;
+  height: 33px;
+  display: flex;
+  margin: 0px 4px 0px 0px;
+  padding: 4px 18px 4px 6px;
+}
+.ctry{
+  width: 18px;
+  height: 12px;
+  font-size: 1rem;
+  color: #004b91;
+}
+.foot3{
+  width: 100%;
+  height: 37px;
+  background-color: #131A22;
+  padding: 10px 0px 30px;
+}
+.foot-3{
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  height: 19px;
+}
+.foot-3 p{
+  padding: 0px 7.2px;
+  color: #DDDDDD;
+  font-size: 0.75rem;
+}
+.foot-3 p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sp-foot{
+  display: flex;
+  justify-content: center;
+  color: #DDDDDD;
+  height: 18px;
+  font-size: 0.75rem;
+  margin:0px 0px 0px 15px;
 }

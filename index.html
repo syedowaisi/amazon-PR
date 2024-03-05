@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="javascrpt.js"></script>
     <!-- <script src="http://cdn.tailwindcss.com"></script> -->
   </head>
 
@@ -85,11 +86,12 @@
           <div class="panel-deal border">
             <p>Shop deals in electronics</p>
           </div>
-          <!-- below main div -->
+          <!-- below main div of nav2-->
         </div>
       </header>
       <main>
-        <div class="hero">
+        <div class="hero" id="hro">
+          <button onclick="image()">click me</button>
           <div class="hero2">
             <p>
               You are on amazon.com. You can also shop on Amazon India for
@@ -98,176 +100,254 @@
             </p>
           </div>
         </div>
-          <div class="hero3">
-            <div class="book box">
-              <h2>New year, new supplies</h2>
-              <div class="img"><img src="am2 pr.jpg" /></div>
-              <p class="para">Shop office products</p>
-            </div>
-
-            <div class="gaming box">
-              <h2>Gaming accessories</h2>
-              <div class="row">
-                <div class="headphone">
-                  <img src="am3 pr.jpg" />
-                  <p>Headsets</p>
-                </div>
-                <div class="keyboard">
-                  <img src="am4.jpg" style="margin-right: 40px" />
-                  <p>Keyboards</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="mouse">
-                  <img src="am5.jpg" />
-                  <p>Computer mice</p>
-                </div>
-                <div class="chair">
-                  <img src="am6.jpg" style="margin-right: 40px" />
-                  <p>Chairs</p>
-                </div>
-              </div>
-              <p class="para" id="p2">See more</p>
-            </div>
-            <div class="hero4 box">
-              <h2>Celebrate the women in your life</h2>
-              <img src="am7.jpg" style="height: 260px" />
-              <p>Shop gifts</p>
-            </div>
-            <div class="hero5 box">
-              <h2>Amazon Gadget Store</h2>
-              <div class="phone">
-                <img src="am8.jpg" style="height: 170px" />
-              </div>
-              <p>Smartphones</p>
-              <div class="row">
-                <div class="tab">
-                  <img
-                    src="am9.jpg"
-                    style="width: 97px; height: 80px; margin-bottom: 3px"
-                  />
-                  <p>Tablets</p>
-                </div>
-                <div class="lap">
-                  <img
-                    src="am10.jpg"
-                    style="
-                      width: 97px;
-                      height: 80px;
-                      margin-bottom: 3px;
-                      margin-left: 0.2rem;
-                    "
-                  />
-                  <p style="right: 50px">Laptops</p>
-                </div>
-                <div class="tv">
-                  <img
-                    src="am11.jpg"
-                    style="
-                      width: 97px;
-                      height: 80px;
-                      margin-bottom: 3px;
-                      margin-left: 0.2rem;
-                    "
-                  />
-                  <p style="padding-right: 110px">TVs</p>
-                </div>
-              </div>
-              <p class="para" id="p3">See more from Amazon Gadgets</p>
-            </div>
-
-            <!-- section-2 2nd time four box-->
-            <div class="book box">
-              <h2>Deals in PCs</h2>
-              <img src="am12.jpg" class="sound" />
-              <p class="para">Shop now</p>
-            </div>
-
-            <div class="book box">
-              <h2>Shop activity trackers and smartwatches</h2>
-              <div class="img">
-                <img src="am watch.jpg" style="height: 260px" />
-              </div>
-              <p class="para">Shop now</p>
-            </div>
-            <div class="gaming box">
-              <h2>Handpicked music & audio</h2>
-              <div class="row">
-                <div class="headphone">
-                  <img src="am13.jpg" />
-                  <p>Headphones</p>
-                </div>
-                <div class="keyboard">
-                  <img src="am14.jpg" style="margin-right: 40px" />
-                  <p>Guitars</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="mouse">
-                  <img src="am15.jpg" />
-                  <p>Keyboards</p>
-                </div>
-                <div class="chair">
-                  <img src="am16.jpg" style="margin-right: 40px" />
-                  <p>Microphones</p>
-                </div>
-              </div>
-              <p class="para" id="p2">See more curated tech</p>
-            </div>
-
-            <div class="hero4 box">
-              <h2>Player's paradise starts here</h2>
-              <img src="am17.jpg" class="cloth" />
-              <p>Shop vedio games</p>
-            </div>
-            <!-- section3 -->
-            <div class="book-seller">
-              <h2>Best Sellers in Books</h2>
-              <div class="image">
-                <img src="book1.jpg" />
-                <img src="book2.jpg" />
-                <img src="book3.jpg" />
-                <img src="book4.jpg" />
-                <img src="book5.jpg" />
-                <img src="book6.jpg" />
-                <img src="book7.jpg" />
-                <img src="book8.jpg" />
-                <img src="book9.jpg" />
-              </div>
-            </div>
-
-            <div class="book-seller">
-              <div class="decor">
-                <h2>Home Décor Under $20</h2>
-                <p>shop now</p>
-              </div>
-              <div class="decor-image">
-                <img src="decor1.jpg" style="width: 247px; height: 200px" />
-                <img
-                  src="decor2.jpg"
-                  style="width: 290px; height: 170px; margin-top: 10px"
-                />
-                <img src="decor3.jpg" style="width: 210px; height: 200px" />
-                <img src="decor4.jpg" style="width: 242px; height: 200px" />
-                <img src="decor5.jpg" style="width: 222px; height: 200px" />
-                <img src="decor6.jpg" style="width: 232px; height: 200px" />
-              </div>
-            </div>
-            <!-- hero3 -->
+        <div class="hero3">
+          <div class="book box">
+            <h2>New year, new supplies</h2>
+            <div class="img"><img src="am2 pr.jpg" /></div>
+            <p class="para parara">Shop office products</p>
           </div>
-          <!-- section4 -->
-        <div class="frame">
-              <div class="frame1">
-                <div class="frame2">
-                  <p id="p4">See personalized recommendations</p>
-                  <p id="p6">Sign in</p>
-                  <p id="p5">New customer?<span> Start here.</span></p>
-                </div>
+
+          <div class="gaming box">
+            <h2>Gaming accessories</h2>
+            <div class="row">
+              <div class="headphone">
+                <img src="am3 pr.jpg" />
+                <p>Headsets</p>
               </div>
+              <div class="keyboard">
+                <img src="am4.jpg" style="margin-right: 40px" />
+                <p>Keyboards</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mouse">
+                <img src="am5.jpg" />
+                <p>Computer mice</p>
+              </div>
+              <div class="chair">
+                <img src="am6.jpg" style="margin-right: 40px" />
+                <p>Chairs</p>
+              </div>
+            </div>
+            <p class="para pg" id="p2">See more</p>
+          </div>
+          <div class="hero4 box">
+            <h2>Celebrate the women in your life</h2>
+            <img src="am7.jpg" style="height: 260px" />
+            <p class="parara">Shop gifts</p>
+          </div>
+          <div class="hero5 box">
+            <h2>Amazon Gadget Store</h2>
+            <div class="phone">
+              <img src="am8.jpg" style="height: 170px" />
+            </div>
+            <p>Smartphones</p>
+            <div class="row">
+              <div class="tab">
+                <img
+                  src="am9.jpg"
+                  style="width: 97px; height: 80px; margin-bottom: 3px"
+                />
+                <p>Tablets</p>
+              </div>
+              <div class="lap">
+                <img
+                  src="am10.jpg"
+                  style="
+                    width: 97px;
+                    height: 80px;
+                    margin-bottom: 3px;
+                    margin-left: 0.2rem;
+                  "
+                />
+                <p style="right: 50px">Laptops</p>
+              </div>
+              <div class="tv">
+                <img
+                  src="am11.jpg"
+                  style="
+                    width: 97px;
+                    height: 80px;
+                    margin-bottom: 3px;
+                    margin-left: 0.2rem;
+                  "
+                />
+                <p style="padding-right: 110px">TVs</p>
+              </div>
+            </div>
+            <p class="para parara" id="p3">See more from Amazon Gadgets</p>
+          </div>
+
+          <!-- section-2 2nd time four box-->
+          <div class="book box">
+            <h2>Deals in PCs</h2>
+            <img src="am12.jpg" class="sound" />
+            <p class="para parara">Shop now</p>
+          </div>
+
+          <div class="book box">
+            <h2>Shop activity trackers and smartwatches</h2>
+            <div class="img">
+              <img src="am watch.jpg" style="height: 260px" />
+            </div>
+            <p class="para parara">Shop now</p>
+          </div>
+          <div class="gaming box">
+            <h2>Handpicked music & audio</h2>
+            <div class="row">
+              <div class="headphone">
+                <img src="am13.jpg" />
+                <p>Headphones</p>
+              </div>
+              <div class="keyboard">
+                <img src="am14.jpg" style="margin-right: 40px" />
+                <p>Guitars</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mouse">
+                <img src="am15.jpg" />
+                <p>Keyboards</p>
+              </div>
+              <div class="chair">
+                <img src="am16.jpg" style="margin-right: 40px" />
+                <p>Microphones</p>
+              </div>
+            </div>
+            <p class="para pg" id="p2">See more curated tech</p>
+          </div>
+
+          <div class="hero4 box">
+            <h2>Player's paradise starts here</h2>
+            <img src="am17.jpg" class="cloth" />
+            <p class="parara">Shop vedio games</p>
+          </div>
+          <!-- section3 -->
+          <div class="book-seller">
+            <h2>Best Sellers in Books</h2>
+            <div class="image">
+              <img src="book1.jpg" />
+              <img src="book2.jpg" />
+              <img src="book3.jpg" />
+              <img src="book4.jpg" />
+              <img src="book5.jpg" />
+              <img src="book6.jpg" />
+              <img src="book7.jpg" />
+              <img src="book8.jpg" />
+              <img src="book9.jpg" />
+            </div>
+          </div>
+
+          <div class="book-seller">
+            <div class="decor">
+              <h2>Home Décor Under $20</h2>
+              <p>shop now</p>
+            </div>
+            <div class="decor-image">
+              <img src="decor1.jpg" style="width: 247px; height: 200px" />
+              <img
+                src="decor2.jpg"
+                style="width: 290px; height: 170px; margin-top: 10px"
+              />
+              <img src="decor3.jpg" style="width: 210px; height: 200px" />
+              <img src="decor4.jpg" style="width: 242px; height: 200px" />
+              <img src="decor5.jpg" style="width: 222px; height: 200px" />
+              <img src="decor6.jpg" style="width: 232px; height: 200px" />
+            </div>
+          </div>
+          <!-- hero3 -->
+        </div>
+        <!-- section4 -->
+        <div class="frame">
+          <div class="frame1">
+            <div class="frame2">
+              <p id="p4">See personalized recommendations</p>
+              <p id="p6">Sign in</p>
+              <p id="p5">New customer?<span> Start here.</span></p>
+            </div>
+          </div>
         </div>
       </main>
       <footer>
         <div class="back">Back to top</div>
+        <div class="foot1">
+          <div class="foot-p">
+            <div class="foot-1">
+              <p><b>Get to Know Us</b></p>
+              <ul>
+                <a href="#">Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+              </ul>
+            </div>
+            <div class="foot-1" style="width: 184px">
+              <p><b>Make Money with Us</b></p>
+              <ul>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a><span id="s1">›</span>See More Make Money with Us</a>
+              </ul>
+            </div>
+
+            <div class="foot-1" style="width: 222px">
+              <p><b>Amazon Payment Products</b></p>
+              <ul>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+              </ul>
+            </div>
+            <div class="foot-1" style="width: 158px">
+              <p><b>Let Us Help You</b></p>
+              <ul>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a href="#">Help</a>
+              </ul>
+            </div>
+          </div>
+          <div class="foot2">
+            <span class="sp1">
+              <div class="span-img"></div>
+            </span>
+            <span class="sp2">
+              <div class="d1 border">
+                <p>English</p>
+                <div class="icon"><i class="fa-solid fa-caret-down"></i></div>
+              </div>
+              <div class="d2 border">
+                <div class="dollar">$</div>
+                <p>USD-U.S.Dollar</p>
+              </div>
+              <div class="d3 border">
+                <div class="ctry"><i class="fa-solid fa-flag-usa"></i></div>
+                <p>United States</p>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="foot3">
+          <div class="foot-3">
+            <p>Conditions of Use</p>
+            <p>Privacy Notice</p>
+            <p>Your Ads Privacy Choices</p>
+          </div>
+          <span class="sp-foot">© 1996-2024, Amazon.com, Inc. or its affiliates</span>
+        </div>
       </footer>
     </div>
   </body>
